@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    .navg{
+        background-color: white;
+        justify-content: space-between;
+        position: sticky;
+        top: 0%;
+        z-index: 1;
+        box-shadow: 10px 3px 10px;
+    }
+    .nav1{
+        margin-top: 10px;
+        margin-left: 40px;
+        padding: 10px;
+    }
+    .nav1 a{
+        text-decoration: none;
+        padding: 10px 0px 10px 0px;
+        font-size: large;
+        color: black;
+
+    }
+    .nav2{
+        text-align: right;
+        margin-top: -25px;
+        padding: 10px;
+
+    }
+    .nav2 a{
+        text-decoration: none;
+        padding: 0px 10px 0px 10px;
+        margin-right: 40px;
+        color: black;   
+    }
+    .sec1{
+        position: relative;
+    }
+    .sec11 h1{
+        position: absolute;
+        top: 50%;
+        right: 55%;
+        padding: 10px;
+        background-color: #000000;
+        opacity: 0.75;
+        color: white;
+    }
+    .sec11 h2{
+        position: absolute;
+        top: 50%;
+        right: 40%;
+        font-size: 30px;
+        font-family:'Courier New', Courier, monospace;
+        padding: 10px;
+        color: white;
+        
+        
+    }
+    .sec1 img{
+        width: 100%;
+        height: 110vh;
+        padding: 0px 10px 0px 10px;
+    }
+    .sec2 header, .sec3 header, .sec4 header{
+        margin-top: 5%;
+        font-size: 30px;
+        margin-left: 2%;
+    }
+    .sec21, .pic{
+        display: grid;
+        grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+        gap: 10px;
+        margin: 2% 1% 2% 1%;
+    }
+    .p{
+        position: relative;
+        width: 100%;
+    }
+    .sec21 img,.pic img{
+        width: 100%;
+    }
+    .sec21 h3{
+        position: absolute;
+        top: 0%;
+        background-color: black;
+        padding: 5px;
+        color: white;
+    }
+    .sec3 .t, .sec4 p,input{
+        margin-left: 2%;
+    }
+    .pic p{
+        line-height: 1.5;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .pic a{
+        text-decoration: none;
+        color: #000000;
+        background-color: rgb(230, 230, 230);
+        text-align: center;
+        padding: 2% 42%;
+    }
+    .sec4 input{
+        width: 96%;
+        padding: 1% 1%;
+    }
+    .sec4 a{
+        margin-left: 2%;
+        text-decoration: none;
+        color: #000000;
+        padding: 1%;
+        background-color: #000000;
+        color: white;
+    }
+    .sec4 a:hover{
+        background-color: rgb(153, 152, 152);
+        color: #000000;
+    }
+    .sec5 img{
+        margin-left: 2%;
+        width: 96%;
+    }
+    footer a{
+        color: aliceblue;
+    }
+    footer{
+        text-align: center;
+        background-color: #000000;
+        color: white;
+        padding: 3%;
+    }
+</style>
+<body>
+    <nav class="navg">
+        <div class="nav1">
+          <a href="#home" class=""><b>BR</b> Architects</a>
+         
+          <div class="nav2">
+            <a href="#projects">Projects</a>
+            <a href="#about" >About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="sec1">
+        <img src="images/background.jpg" alt="photo">
+        <div class="sec11">
+            <h1>BR</h1>
+            <h2>Architects</h2>
+        </div>
+        
+    </div>
+
+    <div class="sec2">
+        <header>Projects</header><br>
+        <hr>
+        <div class="sec21">
+            <div class="p">
+                <img src="images/h1.jpg" alt="">
+                <h3>Summer House</h3>
+            </div>
+
+            <div class="p">
+                 <img src="images/h2.jpg" alt="">
+                 <h3>Brick House</h3>
+            </div>
+
+            <div class="p">
+                <img src="images/h3.jpg" alt="">
+                <h3>Renovated</h3>
+            </div>
+
+            <div class="p">
+                <img src="images/h4.jpg" alt="">
+                <h3>Barn House</h3>
+            </div>
+
+            <div class="p">
+                <img src="images/h4.jpg" alt="">
+                <h3>Summer House</h3>
+            </div>
+
+            <div class="p">
+                <img src="images/h3.jpg" alt="">
+                <h3>Brick House</h3>
+            </div>
+
+            <div class="p">
+                <img src="images/h2.jpg" alt="">
+                <h3>Renovated</h3>
+            </div>
+            <div class="p">
+                <img src="images/h1.jpg" alt="">
+                <h3>Barn House</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec3">
+        <header>About</header><br>
+        <hr><br>
+        <p class="t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <br><br>
+        <div class="pic">
+            <div>
+                <img src="images/pro2.jpg" alt="">
+                <h3>John Doe</h3><br>
+                <p><span>CEO & Founder</span><br><br>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br><br>
+                <a href=""> <b>Contact</b></a>
+            </div>
+
+            <div>
+                <img src="images/prow.jpg" alt="">
+                <h3>Jane Doe</h3><br>
+                <p><span>Architect</span><br><br>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br><br>
+                <a href=""><b>Contact</b> </a>
+            </div>
+
+            <div>
+                <img src="images/pro1.jpg" alt="">
+                <h3>Mike Ross</h3><br>
+                <p><span>Architect</span><br><br>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br><br>
+                <a href=""> <b>Contact</b></a>
+            </div>
+
+            <div>
+                <img src="images/pro3.jpg" alt="">
+                <h3>Dan Star</h3><br>
+                <p><span>Architect</span><br><br>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br><br>
+                <a href=""><b>Contact</b> </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="sec4">
+        <header>Contact</header><br>
+        <hr><br>
+        <p><b>Lets get in touch and talk about your next project.</b></p><br>
+        <input type="text" placeholder="Name"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <input type="text" placeholder="Subject"><br><br>
+        <input type="text" placeholder="Comment"><br><br><br>
+        <a href="">SEND MESSAGE</a>
+    </div><br><br><br><br>
+
+    <div class="sec5">
+        <img src="images/WhatsApp Image 2024-10-21 at 22.59.01_7ec82181.jpg" alt="">
+    </div>
+
+    <footer>
+        <h3>Powered By <a href="">SAI</a></h3>
+    </footer>
+</body>
+</html>
